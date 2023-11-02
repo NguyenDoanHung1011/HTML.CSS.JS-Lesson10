@@ -1,0 +1,55 @@
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin: 0 2%;
+}
+
+.card {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.active {
+    background-color: #02319b !important;
+    color: white !important;
+    border-top: 2px solid black !important;
+    border-right: 2px solid black !important;
+    border-left: 2px solid black !important;
+    border-bottom: 2px solid #02319b !important;
+}
+
+.focus {
+    background-image: linear-gradient(to right, #999 0%, #999 95%, #666 95%, #666 100%)  !important;
+}
+
+.col {
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-25 {
+    width: 24%;
+}
+
+.row-first {
+    border-bottom-right-radius: 20px;
+}
+
+.row-last {
+    border-top-right-radius: 20px;
+}

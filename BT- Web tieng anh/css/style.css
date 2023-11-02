@@ -1,0 +1,145 @@
+.header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #6a6b5c,#a7a195);
+    border-bottom: 2px solid #999;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    display: flex;
+}
+
+.logo__text {
+    background-color: #fff;
+    border: 2px solid #666;
+    padding: 5px;
+}
+
+.header .nav {
+    position: absolute;
+    bottom: -2px;
+    left: 25%;
+}
+
+.header .nav__list {
+    list-style-type: none;
+}   
+
+.header .nav__list-item {
+    display: inline-block;
+}   
+
+.header .nav__list-item__link {
+    background-color: #dbdfe3;
+    color: #02319b;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 44px;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    border-left: 2px solid #666;
+    padding: 10px;
+}   
+
+.search {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 1%;
+    background-color: #02319b;
+    border-bottom: 2px solid #02319b;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.search__form {
+    margin: 1% 0 0 2%;
+}
+
+.search__input {
+    width: 70%;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.search__button {
+    width: 20%;
+    color: #02319b;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+.banner {
+    margin-top: 52px;
+    width: 99%;
+    height: 164px;
+    background-image: url(/assets/Screenshot\ 2023-11-01\ 195551.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content {
+    margin: 210px 0 0 0;
+}
+
+.content .nav {
+    width: 15%;
+}
+
+.content .nav__list {
+    list-style-type: none;
+}
+
+.content .nav__list-item {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+.content .nav__list-item:last-child {
+    border-bottom-right-radius: 30px;
+}
+
+.content .nav__list-item__link {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.article {
+    width: 100%;
+}
+
+.article__heading {
+    color: dodgerblue;
+}
+
+.article__wrap {
+    background-color: #ccc;
+}
+
+.article__img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    margin-top: 20px;
+}
+
+.article__content {
+    margin-left: 10px;
+}
+
+.content__heading {
+    margin-bottom: 15px;
+}
